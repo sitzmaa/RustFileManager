@@ -1,0 +1,10 @@
+[package]
+name = "file_manager_cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "4.2"            # For command-line argument parsing
+walkdir = "2.3"         # For recursively walking directories
+chrono = "0.4"          # For handling dates and times
+glob = "0.3.1"            # For file pattern matching
